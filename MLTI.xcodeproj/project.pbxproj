@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		967BF9D8149EB2B4000C7B66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967BF9D7149EB2B4000C7B66 /* UIKit.framework */; };
+		967BF9DA149EB2B4000C7B66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967BF9D9149EB2B4000C7B66 /* Foundation.framework */; };
+		967BF9DC149EB2B4000C7B66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967BF9DB149EB2B4000C7B66 /* CoreGraphics.framework */; };
+		967BF9E2149EB2B4000C7B66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 967BF9E0149EB2B4000C7B66 /* InfoPlist.strings */; };
+		967BF9E4149EB2B4000C7B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 967BF9E3149EB2B4000C7B66 /* main.m */; };
+		967BF9E8149EB2B4000C7B66 /* MSCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 967BF9E7149EB2B4000C7B66 /* MSCAppDelegate.m */; };
+		967BF9EB149EB2B4000C7B66 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967BF9E9149EB2B4000C7B66 /* MainStoryboard_iPhone.storyboard */; };
+		967BF9EE149EB2B4000C7B66 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967BF9EC149EB2B4000C7B66 /* MainStoryboard_iPad.storyboard */; };
+		967BF9F1149EB2B4000C7B66 /* MSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967BF9F0149EB2B4000C7B66 /* MSCViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		967BF9D3149EB2B4000C7B66 /* MLTI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLTI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		967BF9D7149EB2B4000C7B66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		967BF9D9149EB2B4000C7B66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		967BF9DB149EB2B4000C7B66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		967BF9DF149EB2B4000C7B66 /* MLTI-Info.plist */ = {isa = PBXFileReference; path = "MLTI-Info.plist"; sourceTree = "<group>"; };
+		967BF9E1149EB2B4000C7B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		967BF9E3149EB2B4000C7B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		967BF9E5149EB2B4000C7B66 /* MLTI-Prefix.pch */ = {isa = PBXFileReference; path = "MLTI-Prefix.pch"; sourceTree = "<group>"; };
+		967BF9E6149EB2B4000C7B66 /* MSCAppDelegate.h */ = {isa = PBXFileReference; path = MSCAppDelegate.h; sourceTree = "<group>"; };
+		967BF9E7149EB2B4000C7B66 /* MSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCAppDelegate.m; sourceTree = "<group>"; };
+		967BF9EA149EB2B4000C7B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		967BF9ED149EB2B4000C7B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		967BF9EF149EB2B4000C7B66 /* MSCViewController.h */ = {isa = PBXFileReference; path = MSCViewController.h; sourceTree = "<group>"; };
+		967BF9F0149EB2B4000C7B66 /* MSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		967BF9D0149EB2B4000C7B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967BF9D8149EB2B4000C7B66 /* UIKit.framework in Frameworks */,
+				967BF9DA149EB2B4000C7B66 /* Foundation.framework in Frameworks */,
+				967BF9DC149EB2B4000C7B66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		967BF9C8149EB2B4000C7B66 = {
+			isa = PBXGroup;
+			children = (
+				967BF9DD149EB2B4000C7B66 /* MLTI */,
+				967BF9D6149EB2B4000C7B66 /* Frameworks */,
+				967BF9D4149EB2B4000C7B66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		967BF9D4149EB2B4000C7B66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967BF9D3149EB2B4000C7B66 /* MLTI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		967BF9D6149EB2B4000C7B66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				967BF9D7149EB2B4000C7B66 /* UIKit.framework */,
+				967BF9D9149EB2B4000C7B66 /* Foundation.framework */,
+				967BF9DB149EB2B4000C7B66 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		967BF9DD149EB2B4000C7B66 /* MLTI */ = {
+			isa = PBXGroup;
+			children = (
+				967BF9E6149EB2B4000C7B66 /* MSCAppDelegate.h */,
+				967BF9E7149EB2B4000C7B66 /* MSCAppDelegate.m */,
+				967BF9E9149EB2B4000C7B66 /* MainStoryboard_iPhone.storyboard */,
+				967BF9EC149EB2B4000C7B66 /* MainStoryboard_iPad.storyboard */,
+				967BF9EF149EB2B4000C7B66 /* MSCViewController.h */,
+				967BF9F0149EB2B4000C7B66 /* MSCViewController.m */,
+				967BF9DE149EB2B4000C7B66 /* Supporting Files */,
+			);
+			path = MLTI;
+			sourceTree = "<group>";
+		};
+		967BF9DE149EB2B4000C7B66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				967BF9DF149EB2B4000C7B66 /* MLTI-Info.plist */,
+				967BF9E0149EB2B4000C7B66 /* InfoPlist.strings */,
+				967BF9E3149EB2B4000C7B66 /* main.m */,
+				967BF9E5149EB2B4000C7B66 /* MLTI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		967BF9D2149EB2B4000C7B66 /* MLTI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 967BF9F4149EB2B4000C7B66 /* Build configuration list for PBXNativeTarget "MLTI" */;
+			buildPhases = (
+				967BF9CF149EB2B4000C7B66 /* Sources */,
+				967BF9D0149EB2B4000C7B66 /* Frameworks */,
+				967BF9D1149EB2B4000C7B66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLTI;
+			productName = MLTI;
+			productReference = 967BF9D3149EB2B4000C7B66 /* MLTI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		967BF9CA149EB2B4000C7B66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Maine";
+			};
+			buildConfigurationList = 967BF9CD149EB2B4000C7B66 /* Build configuration list for PBXProject "MLTI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 967BF9C8149EB2B4000C7B66;
+			productRefGroup = 967BF9D4149EB2B4000C7B66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				967BF9D2149EB2B4000C7B66 /* MLTI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		967BF9D1149EB2B4000C7B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967BF9E2149EB2B4000C7B66 /* InfoPlist.strings in Resources */,
+				967BF9EB149EB2B4000C7B66 /* MainStoryboard_iPhone.storyboard in Resources */,
+				967BF9EE149EB2B4000C7B66 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		967BF9CF149EB2B4000C7B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				967BF9E4149EB2B4000C7B66 /* main.m in Sources */,
+				967BF9E8149EB2B4000C7B66 /* MSCAppDelegate.m in Sources */,
+				967BF9F1149EB2B4000C7B66 /* MSCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		967BF9E0149EB2B4000C7B66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967BF9E1149EB2B4000C7B66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		967BF9E9149EB2B4000C7B66 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967BF9EA149EB2B4000C7B66 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		967BF9EC149EB2B4000C7B66 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				967BF9ED149EB2B4000C7B66 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		967BF9F2149EB2B4000C7B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		967BF9F3149EB2B4000C7B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		967BF9F5149EB2B4000C7B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLTI/MLTI-Prefix.pch";
+				INFOPLIST_FILE = "MLTI/MLTI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		967BF9F6149EB2B4000C7B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MLTI/MLTI-Prefix.pch";
+				INFOPLIST_FILE = "MLTI/MLTI-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		967BF9CD149EB2B4000C7B66 /* Build configuration list for PBXProject "MLTI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967BF9F2149EB2B4000C7B66 /* Debug */,
+				967BF9F3149EB2B4000C7B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		967BF9F4149EB2B4000C7B66 /* Build configuration list for PBXNativeTarget "MLTI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				967BF9F5149EB2B4000C7B66 /* Debug */,
+				967BF9F6149EB2B4000C7B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 967BF9CA149EB2B4000C7B66 /* Project object */;
+}
