@@ -16,6 +16,17 @@
 		967BF9EB149EB2B4000C7B66 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967BF9E9149EB2B4000C7B66 /* MainStoryboard_iPhone.storyboard */; };
 		967BF9EE149EB2B4000C7B66 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 967BF9EC149EB2B4000C7B66 /* MainStoryboard_iPad.storyboard */; };
 		967BF9F1149EB2B4000C7B66 /* MSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967BF9F0149EB2B4000C7B66 /* MSCViewController.m */; };
+		967BF9F8149EB2CA000C7B66 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967BF9F7149EB2CA000C7B66 /* MapView.xib */; };
+		967BF9FA149EB2DB000C7B66 /* ImageGalleryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967BF9F9149EB2DB000C7B66 /* ImageGalleryView.xib */; };
+		967BF9FC149EB2E6000C7B66 /* ScheduleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 967BF9FB149EB2E6000C7B66 /* ScheduleView.xib */; };
+		967BF9FF149EB2FA000C7B66 /* MSCBuildingSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 967BF9FE149EB2FA000C7B66 /* MSCBuildingSelectView.m */; };
+		967BFA02149EB309000C7B66 /* MSCImageGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967BFA01149EB309000C7B66 /* MSCImageGalleryViewController.m */; };
+		967BFA05149EB314000C7B66 /* MSCMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967BFA04149EB314000C7B66 /* MSCMapViewController.m */; };
+		967BFA08149EB31D000C7B66 /* MLTI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 967BFA06149EB31D000C7B66 /* MLTI.xcdatamodeld */; };
+		967BFA0D149EB330000C7B66 /* MSCPOIAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 967BFA0A149EB330000C7B66 /* MSCPOIAnnotation.m */; };
+		967BFA0E149EB330000C7B66 /* MSCScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967BFA0C149EB330000C7B66 /* MSCScheduleViewController.m */; };
+		967BFA15149EB85C000C7B66 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967BFA13149EB850000C7B66 /* CoreData.framework */; };
+		967BFA18149EB88D000C7B66 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967BFA16149EB884000C7B66 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +34,32 @@
 		967BF9D7149EB2B4000C7B66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		967BF9D9149EB2B4000C7B66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		967BF9DB149EB2B4000C7B66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		967BF9DF149EB2B4000C7B66 /* MLTI-Info.plist */ = {isa = PBXFileReference; path = "MLTI-Info.plist"; sourceTree = "<group>"; };
+		967BF9DF149EB2B4000C7B66 /* MLTI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MLTI-Info.plist"; sourceTree = "<group>"; };
 		967BF9E1149EB2B4000C7B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		967BF9E3149EB2B4000C7B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		967BF9E5149EB2B4000C7B66 /* MLTI-Prefix.pch */ = {isa = PBXFileReference; path = "MLTI-Prefix.pch"; sourceTree = "<group>"; };
-		967BF9E6149EB2B4000C7B66 /* MSCAppDelegate.h */ = {isa = PBXFileReference; path = MSCAppDelegate.h; sourceTree = "<group>"; };
+		967BF9E5149EB2B4000C7B66 /* MLTI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MLTI-Prefix.pch"; sourceTree = "<group>"; };
+		967BF9E6149EB2B4000C7B66 /* MSCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCAppDelegate.h; sourceTree = "<group>"; };
 		967BF9E7149EB2B4000C7B66 /* MSCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCAppDelegate.m; sourceTree = "<group>"; };
 		967BF9EA149EB2B4000C7B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		967BF9ED149EB2B4000C7B66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		967BF9EF149EB2B4000C7B66 /* MSCViewController.h */ = {isa = PBXFileReference; path = MSCViewController.h; sourceTree = "<group>"; };
+		967BF9EF149EB2B4000C7B66 /* MSCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSCViewController.h; sourceTree = "<group>"; };
 		967BF9F0149EB2B4000C7B66 /* MSCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSCViewController.m; sourceTree = "<group>"; };
+		967BF9F7149EB2CA000C7B66 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		967BF9F9149EB2DB000C7B66 /* ImageGalleryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageGalleryView.xib; sourceTree = "<group>"; };
+		967BF9FB149EB2E6000C7B66 /* ScheduleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleView.xib; sourceTree = "<group>"; };
+		967BF9FD149EB2FA000C7B66 /* MSCBuildingSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCBuildingSelectView.h; sourceTree = "<group>"; };
+		967BF9FE149EB2FA000C7B66 /* MSCBuildingSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCBuildingSelectView.m; sourceTree = "<group>"; };
+		967BFA00149EB309000C7B66 /* MSCImageGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCImageGalleryViewController.h; sourceTree = "<group>"; };
+		967BFA01149EB309000C7B66 /* MSCImageGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCImageGalleryViewController.m; sourceTree = "<group>"; };
+		967BFA03149EB314000C7B66 /* MSCMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCMapViewController.h; sourceTree = "<group>"; };
+		967BFA04149EB314000C7B66 /* MSCMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCMapViewController.m; sourceTree = "<group>"; };
+		967BFA07149EB31D000C7B66 /* MLTI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MLTI.xcdatamodel; sourceTree = "<group>"; };
+		967BFA09149EB330000C7B66 /* MSCPOIAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCPOIAnnotation.h; sourceTree = "<group>"; };
+		967BFA0A149EB330000C7B66 /* MSCPOIAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCPOIAnnotation.m; sourceTree = "<group>"; };
+		967BFA0B149EB330000C7B66 /* MSCScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCScheduleViewController.h; sourceTree = "<group>"; };
+		967BFA0C149EB330000C7B66 /* MSCScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCScheduleViewController.m; sourceTree = "<group>"; };
+		967BFA13149EB850000C7B66 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		967BFA16149EB884000C7B66 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +69,8 @@
 			files = (
 				967BF9D8149EB2B4000C7B66 /* UIKit.framework in Frameworks */,
 				967BF9DA149EB2B4000C7B66 /* Foundation.framework in Frameworks */,
+				967BFA15149EB85C000C7B66 /* CoreData.framework in Frameworks */,
+				967BFA18149EB88D000C7B66 /* MapKit.framework in Frameworks */,
 				967BF9DC149EB2B4000C7B66 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +98,8 @@
 		967BF9D6149EB2B4000C7B66 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				967BFA16149EB884000C7B66 /* MapKit.framework */,
+				967BFA13149EB850000C7B66 /* CoreData.framework */,
 				967BF9D7149EB2B4000C7B66 /* UIKit.framework */,
 				967BF9D9149EB2B4000C7B66 /* Foundation.framework */,
 				967BF9DB149EB2B4000C7B66 /* CoreGraphics.framework */,
@@ -79,12 +110,26 @@
 		967BF9DD149EB2B4000C7B66 /* MLTI */ = {
 			isa = PBXGroup;
 			children = (
+				967BFA09149EB330000C7B66 /* MSCPOIAnnotation.h */,
+				967BFA0A149EB330000C7B66 /* MSCPOIAnnotation.m */,
+				967BFA0B149EB330000C7B66 /* MSCScheduleViewController.h */,
+				967BFA0C149EB330000C7B66 /* MSCScheduleViewController.m */,
+				967BFA03149EB314000C7B66 /* MSCMapViewController.h */,
+				967BFA04149EB314000C7B66 /* MSCMapViewController.m */,
+				967BFA00149EB309000C7B66 /* MSCImageGalleryViewController.h */,
+				967BFA01149EB309000C7B66 /* MSCImageGalleryViewController.m */,
+				967BF9FD149EB2FA000C7B66 /* MSCBuildingSelectView.h */,
+				967BF9FE149EB2FA000C7B66 /* MSCBuildingSelectView.m */,
 				967BF9E6149EB2B4000C7B66 /* MSCAppDelegate.h */,
 				967BF9E7149EB2B4000C7B66 /* MSCAppDelegate.m */,
-				967BF9E9149EB2B4000C7B66 /* MainStoryboard_iPhone.storyboard */,
-				967BF9EC149EB2B4000C7B66 /* MainStoryboard_iPad.storyboard */,
 				967BF9EF149EB2B4000C7B66 /* MSCViewController.h */,
 				967BF9F0149EB2B4000C7B66 /* MSCViewController.m */,
+				967BF9FB149EB2E6000C7B66 /* ScheduleView.xib */,
+				967BF9F9149EB2DB000C7B66 /* ImageGalleryView.xib */,
+				967BF9F7149EB2CA000C7B66 /* MapView.xib */,
+				967BF9E9149EB2B4000C7B66 /* MainStoryboard_iPhone.storyboard */,
+				967BF9EC149EB2B4000C7B66 /* MainStoryboard_iPad.storyboard */,
+				967BFA06149EB31D000C7B66 /* MLTI.xcdatamodeld */,
 				967BF9DE149EB2B4000C7B66 /* Supporting Files */,
 			);
 			path = MLTI;
@@ -155,6 +200,9 @@
 				967BF9E2149EB2B4000C7B66 /* InfoPlist.strings in Resources */,
 				967BF9EB149EB2B4000C7B66 /* MainStoryboard_iPhone.storyboard in Resources */,
 				967BF9EE149EB2B4000C7B66 /* MainStoryboard_iPad.storyboard in Resources */,
+				967BF9F8149EB2CA000C7B66 /* MapView.xib in Resources */,
+				967BF9FA149EB2DB000C7B66 /* ImageGalleryView.xib in Resources */,
+				967BF9FC149EB2E6000C7B66 /* ScheduleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +216,12 @@
 				967BF9E4149EB2B4000C7B66 /* main.m in Sources */,
 				967BF9E8149EB2B4000C7B66 /* MSCAppDelegate.m in Sources */,
 				967BF9F1149EB2B4000C7B66 /* MSCViewController.m in Sources */,
+				967BF9FF149EB2FA000C7B66 /* MSCBuildingSelectView.m in Sources */,
+				967BFA02149EB309000C7B66 /* MSCImageGalleryViewController.m in Sources */,
+				967BFA05149EB314000C7B66 /* MSCMapViewController.m in Sources */,
+				967BFA08149EB31D000C7B66 /* MLTI.xcdatamodeld in Sources */,
+				967BFA0D149EB330000C7B66 /* MSCPOIAnnotation.m in Sources */,
+				967BFA0E149EB330000C7B66 /* MSCScheduleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +345,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		967BFA06149EB31D000C7B66 /* MLTI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				967BFA07149EB31D000C7B66 /* MLTI.xcdatamodel */,
+			);
+			currentVersion = 967BFA07149EB31D000C7B66 /* MLTI.xcdatamodel */;
+			path = MLTI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 967BF9CA149EB2B4000C7B66 /* Project object */;
 }
